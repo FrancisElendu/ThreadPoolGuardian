@@ -1,0 +1,6 @@
+@ThreadPoolGuardian_HostAddress = http://localhost:5226
+
+GET {{ThreadPoolGuardian_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

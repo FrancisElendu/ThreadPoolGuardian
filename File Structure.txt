@@ -1,0 +1,10 @@
+﻿MyWebApiProject/
+├── Program.cs
+├── Services/
+│   ├── ThreadPoolMonitorService.cs          (Main monitor service)
+│   ├── IThreadPoolMetricsStorage.cs         (Interface)
+│   ├── DatabaseMetricsStorage.cs            (Option 2)
+│   └── AppInsightsMetricsStorage.cs         (Option 3)
+├── Models/
+│   └── ThreadPoolMetrics.cs
+└── Migrations/                              (EF Core migrations)

@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36930.0 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadPoolGuardian", "ThreadPoolGuardian\ThreadPoolGuardian.csproj", "{B8EC910A-16A7-4C33-B460-0FBE60525BFD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project_Structure", "Project_Structure", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		File Structure.txt = File Structure.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8EC910A-16A7-4C33-B460-0FBE60525BFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8EC910A-16A7-4C33-B460-0FBE60525BFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8EC910A-16A7-4C33-B460-0FBE60525BFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8EC910A-16A7-4C33-B460-0FBE60525BFD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5CB547D8-073C-4789-AA24-B795F1B5D1C8}
+	EndGlobalSection
+EndGlobal
