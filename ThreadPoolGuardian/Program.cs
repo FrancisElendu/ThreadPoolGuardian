@@ -20,6 +20,7 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 //builder.Services.AddScoped<IThreadPoolMetricsStorage, DatabaseMetricsStorage>();
 builder.Services.AddSingleton<IThreadPoolMetricsStorage, DatabaseMetricsStorage>();
 
+#region Optional: Add Application Insights & Composite Storage ie using both Database and App Insights - Composite pattern
 //// Add Application Insights
 //builder.Services.AddApplicationInsightsTelemetry(new ApplicationInsightsServiceOptions
 //{
@@ -36,6 +37,7 @@ builder.Services.AddSingleton<IThreadPoolMetricsStorage, DatabaseMetricsStorage>
 //    var aiStorage = sp.GetRequiredService<AppInsightsMetricsStorage>();
 //    return new CompositeStorage(dbStorage, aiStorage);
 //});
+#endregion
 
 // Register monitor service for background monitoring of ThreadPool metrics
 builder.Services.AddHostedService<ThreadPoolMonitorService>();
