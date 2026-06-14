@@ -9,6 +9,9 @@ namespace ThreadPoolGuardian.Data
         {
         }
 
+        public AppDbContext()
+        {
+        }
         public DbSet<ThreadPoolMetrics> ThreadPoolMetrics { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
