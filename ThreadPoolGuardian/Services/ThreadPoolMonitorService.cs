@@ -5,16 +5,13 @@ namespace ThreadPoolGuardian.Services
     public class ThreadPoolMonitorService : BackgroundService
     {
         private readonly ILogger<ThreadPoolMonitorService> _logger;
-        private readonly IServiceProvider _serviceProvider;
         private readonly IThreadPoolMetricsStorage _storage;
 
         public ThreadPoolMonitorService(
             ILogger<ThreadPoolMonitorService> logger,
-            IServiceProvider serviceProvider,
             IThreadPoolMetricsStorage storage)
         {
             _logger = logger;
-            _serviceProvider = serviceProvider;
             _storage = storage;
         }
 
